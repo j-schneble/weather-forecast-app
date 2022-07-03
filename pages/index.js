@@ -7,7 +7,6 @@ import Post from '../components/Post'
 import { FiSun, FiMoon } from 'react-icons/fi';
 import { FaRegSun } from 'react-icons/fa';
 import { BsCloudSun } from 'react-icons/bs';
-
 import Spin from '../components/Spin.jsx';
 import Forecast from '../components/Forecast'
 
@@ -54,6 +53,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Weather Forecast App</title>
+      
       </Head>
       <div className='absolute  top-0 left-0 right-0 bottom-0  backdrop-brightness-50 bg-black/30 ' />
      <div className='bg-nature-light dark:bg-nature-dark w-full h-screen object-cover bg-cover bg-center  ' >
@@ -66,7 +66,7 @@ export default function Home() {
       </button>
 
       {/* Search */}
-      <div className='flex absolute ml-2 h-25  rounded-2xl p-8   mt-4 text-left '><div className='pb-2 mb-1 ml-2 '  ><Image  src="/30.png" alt="sun logo" height="60" width="60" /> </div><h1 className=' ml-1 mt-2 tracking-widest  text-4xl text-litewite drop-shadow-2xl font-thin '>Current Weather</h1></div>    
+      <div className='flex absolute ml-2 h-25  rounded-2xl p-8   mt-4 text-left '><div className='pb-2 mb-1 ml-2 '  ><Image  src="/30.png" alt="sun logo" height="60" width="60" /> </div><h1 className=' ml-1 mt-2 tracking-widest  text-4xl text-litewite drop-shadow-2xl font-thin '>Jacks Forecast</h1></div>    
         <div className='relative flex justify-between items-center max-w-[500px]  w-full m-auto pt-4 px-4 text-black z-10'>
       </div>
  
