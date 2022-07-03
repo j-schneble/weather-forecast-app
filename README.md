@@ -13,6 +13,6 @@ yarn add
 
 Runs on http://localhost:3000
 
-Demo: jacks-forecast.vercel.app
+Demo: [Jacks Forecast](https://jacks-forecast.vercel.app)
 
 
