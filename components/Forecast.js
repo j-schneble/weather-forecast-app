@@ -19,7 +19,7 @@ const Forecast = ({data}) => {
         <div className='flex backdrop-blur-xl '>
           <h1 className='text-xl font-medium tracking-wide text-zinc-900'>
           Feels like 
-            <span> 
+            <span className='pl-2'> 
               {data.main.feels_like.toFixed(0)}&#176;
             </span>
          </h1>
@@ -28,7 +28,7 @@ const Forecast = ({data}) => {
           <div className='flex backdrop-blur-xl'>
            <h1 className='text-xl font-medium tracking-wide text-zinc-900'>
            Humidity 
-            <span>
+            <span className='pl-2'>
               {data.main.humidity}%
             </span>
             </h1>
@@ -37,7 +37,7 @@ const Forecast = ({data}) => {
           <div className='flex backdrop-blur-xl'>
             <h1 className='text-xl font-medium tracking-wide text-zinc-900'>
            Wind 
-              <span>
+              <span className='pl-2'>
               {data.wind.speed.toFixed(0)} mph  
               </span>
             </h1>
