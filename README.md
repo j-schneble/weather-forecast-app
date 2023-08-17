@@ -1,5 +1,5 @@
 <a href="https://your-forecast.vercel.app/">
-  <img width="1204" alt="weather" src="https://github.com/j-schneble/weather-forecast-app/assets/60337134/c5caf1ff-6aaa-4de7-8e87-36826c1d95f6">
+  <img width="1200" alt="yourforecast" src="https://github.com/j-schneble/weather-forecast-app/assets/60337134/5170ef6a-90e7-479d-ad67-18a7ddf6db4f">
   <h1 align="center">Your Forecast</h1>
 </a>
 
