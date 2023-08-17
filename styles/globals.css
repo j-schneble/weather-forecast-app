@@ -1,20 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+ :root {
+  background: linear-gradient(90deg, #f9fafb 15px, transparent 1%) center,
+    linear-gradient(#f9fafb 15px, transparent 1%) center, rgba(0, 0, 0, 0.402);
+  background-size: 16px 16px;
+} 
 body, html { 
     overflow-x: hidden; 
     overflow-y: auto;
 }
-
-
-.lightdots {
-    background: linear-gradient(90deg, #f9fafb 15px, transparent 1%) center,
-    linear-gradient(#f9fafb 15px, transparent 1%) center, rgba(0, 0, 0, 0.24);
-
-
-  background-size: 16px 16px;
-
-
-
+.asdf {
+  background: rgba(200, 202, 205, 0.15);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.25px);
+  -webkit-backdrop-filter: blur(3.4px);
+  border: 1px solid rgb(227, 228, 231);
+}
+@media (max-width: 671px) {
+  .mobile-text {
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+}
+@media (max-width: 671px) {
+  .mobile-margin {
+    margin-top: 0.35rem;
+  }
 }
